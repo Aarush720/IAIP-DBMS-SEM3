@@ -119,8 +119,82 @@ http://localhost:5173/
 
 ### Login / Welcome Page
 
-assets/ui-welcome-login.png
+assets/ui-welcome-login.jpg
 
-![Login](assets/ui-welcome-login.png)
+![Login](assets/ui-welcome-login.jpg)
 
 
+### Dashboard
+assets/ui-dashboard.jpg
+
+![Dashboard](assets/ui-dashboard.jpg)
+
+
+### Students Management
+assets/ui-students.jpg
+
+![Students](assets/ui-students.jpg)
+
+
+### Faculty Management
+assets/ui-faculty.jpg
+
+![Faculty](assets/ui-faculty.jpg)
+
+
+### Courses & Offerings
+assets/ui-courses.jpg
+
+![Courses](assets/ui-courses.jpg)
+
+
+### Attendance Tracking
+assets/ui-attendance.jpg
+
+![Attendance](assets/ui-attendance.jpg)
+
+
+### Assessment Components
+assets/ui-assessments.jpg
+
+![Assessments](assets/ui-assessments.jpg)
+
+
+### Marksheet / GPA View
+assets/ui-marksheet.jpg
+
+![Marksheet](assets/ui-marksheet.jpg)
+
+
+### Analytics & Reports
+assets/ui-analytics.jpg
+
+![Analytics](assets/ui-analytics.jpg)
+
+
+### Admin Panel
+assets/ui-admin.jpg
+
+![Admin Panel](assets/ui-admin.jpg)
+
+---
+## Future Enhancements
+
+Implement login authentication using the sessions table
+
+Bulk CSV upload for student and assessment data
+
+Export results and analytics as PDF or Excel
+
+Notifications for low attendance or poor academic performance
+
+Predictive analytics for academic risk assessment
+
+---
+
+## Author
+
+**Name:** Your Name
+**Course:** DBMS – Semester 3
+**Project: **Integrated Academic Insights Portal (IAIP)
+**Repository:** https://github.com/Aarush720/IAIP-DBMS-SEM3
