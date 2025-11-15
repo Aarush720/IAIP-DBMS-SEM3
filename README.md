@@ -58,5 +58,69 @@ Tools: mysql-connector-python, Node.js, npm
 ---
 
 ## System Architecture
-```md
 ![System Architecture](assets/architecture.png)
+
+
+## Installation and Setup
+
+### Backend Setup (Flask + MySQL)
+
+Start MySQL (XAMPP).
+
+Create the database:
+
+CREATE DATABASE academic_portal;
+
+
+Import the schema using phpMyAdmin (schema.sql).
+
+### Install Python dependencies:
+
+pip install -r requirements.txt
+
+
+
+
+Run the backend server:
+
+python app.py
+
+
+The backend will run at:
+
+http://127.0.0.1:5000/
+
+### Frontend Setup (React + Vite)
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+
+Open the application in a browser (usually):
+
+http://localhost:5173/
+
+### API Endpoints
+#### GET Endpoints
+- /students     → Fetch list of all students  
+- /faculty      → Fetch list of all faculty  
+
+#### POST Endpoints
+- /add_student  → Add a new student (JSON body)
+
+---
+## Screenshots
+
+### Login / Welcome Page
+
+assets/ui-welcome-login.png
+
+![Login](assets/ui-welcome-login.png)
+
+
