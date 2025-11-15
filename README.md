@@ -1,20 +1,62 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Integrated Academic Insights Portal (IAIP)
 
-# Run and deploy your AI Studio app
+The Integrated Academic Insights Portal (IAIP) is a full–stack academic management and analytics system developed as a DBMS project. It provides an end-to-end solution for managing academic data such as students, faculty, departments, courses, attendance, assessments, final results, and semester-wise GPA.
 
-This contains everything you need to run your app locally.
+The system is built using:
+- MySQL (15-table normalized schema)
+- Flask (REST API backend)
+- React + TypeScript (Vite frontend)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1_gzhI_eL9Wwt1_Ga01AmndLZgnNq7qIj
+IAIP replaces manual Excel-based processes with a structured, scalable, and data-driven digital portal.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## Overview
 
+IAIP centralizes all core academic workflows into one unified platform. It manages:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Student and faculty information  
+- Department and course structures  
+- Semester-wise course offerings  
+- Student enrollments  
+- Subject-wise attendance tracking  
+- Internal and external assessments  
+- Final results and grade computation  
+- GPA analytics and performance trends  
+
+The platform follows a clean three-tier architecture with separation between frontend, backend, and database layers.
+
+---
+
+## Features
+
+### Academic Management
+- Student information management  
+- Faculty information management  
+- Departments and course catalog  
+- Semester-wise course offerings  
+- Student course enrollments  
+
+### Academic Insights
+- Subject-wise attendance tracking  
+- Internal and external assessment components  
+- Computation of final marks and grades  
+- GPA calculation per semester  
+- Performance analytics and report views  
+
+### Role-Based Access
+- Admin  
+- Faculty  
+- Student  
+
+### Tech Stack
+Frontend: React, TypeScript, Vite  
+Backend: Python (Flask)  
+Database: MySQL (XAMPP)  
+Tools: mysql-connector-python, Node.js, npm  
+
+---
+
+## System Architecture
+```md
+![System Architecture](assets/architecture.png)
